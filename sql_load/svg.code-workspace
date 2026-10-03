@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "../../../../vs code folder/html/lesson 1/data analytics for sql/svg"
+		},
+		{
+			"path": "../../../../vs code folder/html/lesson 1/data analytics for sql/data file"
+		},
+		{
+			"path": "../project_sql"
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"ssh": "Disabled",
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 5432,
+				"driver": "PostgreSQL",
+				"name": "postgres",
+				"username": "postgres",
+				"database": "postgres"
+			},
+			{
+				"ssh": "Disabled",
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 5432,
+				"driver": "PostgreSQL",
+				"name": "sql_course",
+				"database": "sql_course",
+				"username": "postgres"
+			}
+		]
+	}
+}
