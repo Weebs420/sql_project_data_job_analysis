@@ -6,7 +6,8 @@ Question: What are the most in-demand skills for data analysts?
 - Why? Retrieves the top 5 skills with the highest demand in the job market,
 providing insights into the most valuable skills for job seekers.
 */
-select 
+
+SELECT
 skills,
 count(skills_job_dim.skill_id) as demand_count
 FROM job_postings_fact
